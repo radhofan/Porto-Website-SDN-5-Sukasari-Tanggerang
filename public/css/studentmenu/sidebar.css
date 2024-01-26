@@ -1,0 +1,38 @@
+#sidebar {
+    background-color: silver;
+    padding: 10px; /* Add padding for spacing */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 80px; /* Set the width as per your preference */
+    position: fixed; /* Fix the position so it stays on the screen while scrolling */
+    transition: width 0.3s ease;
+}
+
+#body-container.sidebar-extended #sidebar {
+    width: 250px; /* Adjust the width when the sidebar is extended */
+}
+
+#body-container.sidebar-extended #opsi {
+    margin-left: 250px; /* Adjust the margin when the sidebar is extended */
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar li {
+    margin-bottom: 10px; /* Add margin between each list item */
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 18px; /* Adjust font size */
+    color: black; /* Set link color */
+}
+
+#sidebar a:hover {
+    color: white; /* Change link color on hover */
+}
+
+
