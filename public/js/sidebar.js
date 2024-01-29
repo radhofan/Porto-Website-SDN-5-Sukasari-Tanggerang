@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const extendIcon = document.querySelector("#navbar i.bi-three-dots");
     const bodyContainer = document.getElementById("body-container");
     const opsiContainer = document.getElementById("opsi");
@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const navbar = document.getElementById("navbar");
     opsiContainer.style.height = `calc(100vh - ${navbar.offsetHeight}px)`;
 
-    extendIcon.addEventListener("click", function() {
+    extendIcon.addEventListener("click", function () {
         bodyContainer.classList.toggle("sidebar-extended");
 
         // Toggle visibility of text based on sidebar extension
         const isExpanded = bodyContainer.classList.contains("sidebar-extended");
         const textElements = document.querySelectorAll("ul li a .text");
 
-        textElements.forEach(function(textElement) {
+        textElements.forEach(function (textElement) {
             textElement.style.display = isExpanded ? "block" : "none";
         });
 
@@ -22,4 +22,3 @@ document.addEventListener("DOMContentLoaded", function() {
         opsiContainer.style.marginLeft = `${sidebarWidth}px`;
     });
 });
-
