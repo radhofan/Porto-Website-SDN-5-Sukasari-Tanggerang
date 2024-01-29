@@ -32,8 +32,8 @@
         <tr>
           <td>1</td>
           <td>Ulangan 1</td>
-          <td>25/08/2023</td>
-          <td>25/08/2023</td>
+          <td>24/08/2023</td>
+          <td>24/08/2023</td>
           <td>83</td>
           <td>10%</td>
           <td>Dicurigai mencontek</td>
